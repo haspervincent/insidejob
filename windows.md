@@ -1,23 +1,23 @@
 # windows
 
-| Command                     | Description                                            |
-| ----------------------------| ------------------------------------------------------ |
-| `cd path\to\folder`         | Change directory                                       |
-| `cd ..`                     | Go to the parent folder                                |
-| `cd`                        | Show current directory                                 |
-| `dir`                       | List folder contents                                   |
-| `mkdir NewFolder`           | Create a new folder                                    |
-| `echo text > file.txt`      | Create a file                                          |
-| `del file.txt`              | Delete a file                                          |
-| `rmdir FolderName`          | Remove an empty folder                                 |
-| `rmdir /s FolderName`       | Remove folder and its contents                         |
-| `copy source.txt dest.txt`  | Copy a file                                            |
-| `move source.txt dest.txt`  | Move a file                                            |
-| `program.exe`               | Execute a program                                      |
-| `findstr "text" file.txt`   | Search for specific text in a file (similar to `grep`) |
-| `dir | findstr ".txt"`      | List `.txt` files in the current folder                |
-| `dir | findstr "report"`    | List files with "report" in the name                   |
-| `dir /S | findstr "report"` | List files with "report" in the name in subfolders     |
+| Command                      | Description                                            |
+| ---------------------------- | ------------------------------------------------------ |
+| `cd path\to\folder`          | Change directory                                       |
+| `cd ..`                      | Go to the parent folder                                |
+| `cd`                         | Show current directory                                 |
+| `dir`                        | List folder contents                                   |
+| `mkdir NewFolder`            | Create a new folder                                    |
+| `echo text > file.txt`       | Create a file                                          |
+| `del file.txt`               | Delete a file                                          |
+| `rmdir FolderName`           | Remove an empty folder                                 |
+| `rmdir /s FolderName`        | Remove folder and its contents                         |
+| `copy source.txt dest.txt`   | Copy a file                                            |
+| `move source.txt dest.txt`   | Move a file                                            |
+| `program.exe`                | Execute a program                                      |
+| `findstr "text" file.txt`    | Search for specific text in a file (similar to `grep`) |
+| `dir \| findstr ".txt"`      | List `.txt` files in the current folder                |
+| `dir \| findstr "report"`    | List files with "report" in the name                   |
+| `dir /S \| findstr "report"` | List files with "report" in the name in subfolders     |
 
 Download Sysinternals Suite:
 
