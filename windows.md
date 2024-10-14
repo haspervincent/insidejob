@@ -25,7 +25,7 @@ Download Sysinternals Suite:
 powershell -Command "Invoke-WebRequest -Uri 'https://download.sysinternals.com/files/SysinternalsSuite.zip' -OutFile '.\SysinternalsSuite.zip'"
 ```
 
-Extract:
+Extract ZIP file:
 
 ```cmd
 powershell -Command "Expand-Archive -Path '.\SysinternalsSuite.zip' -DestinationPath '.\SysinternalsSuite'"
