@@ -61,7 +61,7 @@ Exclude `C:\Temp` folder from Windows Defender:
 powershell -Command "Add-MpPreference -ExclusionPath 'C:\Temp'"
 ```
 
-Check if it was successful:
+Retrieve list of exclusion paths configured in Windows Defender:
 
 ```cmd
 powershell -Command "Get-MpPreference | Select-Object -ExpandProperty ExclusionPath"
